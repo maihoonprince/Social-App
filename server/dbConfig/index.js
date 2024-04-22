@@ -13,3 +13,5 @@ const dbConnection = async () => {
         console.log("DB Error: "+ error);
     }
 };
+
+export default dbConnection;
